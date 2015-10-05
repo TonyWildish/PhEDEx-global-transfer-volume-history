@@ -5,6 +5,7 @@
 - start R
 - source('global-transfer-rate.R')
 - the updated plot will be available in *All-PhEDEx-transfers.bmp* and *All-PhEDEx-transfers.pdf*
+- periodically, commit the new *All-PhEDEx-transfers.csv* file, so that the next time you clone the repository it will have less data to download
 
 N.B. The script depends on a few R packages (e.g. RColorBrewer), so pay attention to any error messages and install what you need to get it running. There are only one or two packages, so it shouldn't take long.
 
